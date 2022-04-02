@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a1a1e3;
+}
+
+header {
+  background-color: white;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.footerLogo {
+  max-width: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* h2 {
+  text-align: center;
+} */
+
+.bodyDiv {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  /* flex-wrap: nowrap; */
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  background-color: white;
+  border: 3px solid black;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.cardsImg {
+  max-height: 100px;
+  /* max-width: 100px; */
+}
+
+.about {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+}
+
+.design {
+  width: 100%;
+  height: auto;
+}
+
+.code {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+}
+
+.soMe {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.socialMedia {
+  max-width: 30px;
+}
+
+@media(max-width: 700px) {
+  .bodyDiv {
+    flex-wrap: wrap;
+  }
+}
